@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <script src="D:\Repositorio_Webll\WebRepositorioGozu\Html\jquery.min.js"></script>
+    <script>
+        // $(function(){
+            function Efecto(){
+                //  alert('Hola');
+                // $(selector).Efecto(velocidad, callback);
+                //Hide
+                 $('.caja').hide(3000,function(){alert('oculto');});
+                //show
+                // $('.caja').show(2000);
+                //toggle
+                // $('.caja').toggle(2000);
+                // $('.caja').fadeOut(2000);
+                // $('.caja').fadeIn(2000);
+                // $('.caja').fadeToggle(2000);
+                // $('.caja').slideDown(2000);
+                // $('.caja').slideUp(2000);
+                 $('.caja').slideToggle(2000);
+            } 
+
+// });
+    </script>
+</head>
+<body>
+    
+<button onclick="Efecto()">Efecto</button>
+    <div class="caja">   </div>
+   
+</body>
+</html>
+
+
+<style>
+    .caja{
+        width: 200px;
+        height: 200px;
+        background: black;
+    }
+</style>

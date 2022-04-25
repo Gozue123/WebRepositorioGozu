@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones</title>
+    <script src="D:\Repositorio_Webll\WebRepositorioGozu\Html\jquery.min.js"></script>
+</head>
+<body>
+    <button id="boton">Animar</button><br>
+    <div class="caja"></div>
+    <script>
+        $(function(){
+            $('#boton').on('click',function(){
+                // $('.selector').animate({parametro},velocidad,function(){});
+                $('.caja').animate({
+                    // width:'+=100px',
+                    // margin:'+=20px',
+                    marginLeft:'+=40px',
+                    opacity:'0.5'
+                },2000,function(){
+                    
+                })          
+           })
+        })
+
+    </script>
+</body>
+</html>
+<style>
+        .caja{
+        width: 150px;
+        height: 150px;
+        background: rgb(194, 113, 37);
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+</style>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <script src="D:\Repositorio_Webll\WebRepositorioGozu\Html\jquery.min.js"></script>
+</head>
+<body>
+    <button id="boton">Funcionar</button>
+    <button id="desactivar">desactivar</button>
+    <a href="https://www.google.com/">Google</a>
+
+    <script>
+        // $(document).ready(function(){})
+        $(function(){
+            var btn =$('#boton')
+            // $('#boton').click(function(){
+            //     alert('Se hizo click')
+            // })
+            // btn.click(function(){
+            //     alert('Hola');
+            // })
+            // btn.on('click', Saludo);
+            btn.on('mouseenter',function(){
+                document.body.style.background='#325623';
+            })
+            btn.on('mouseleave',function(){
+                document.body.style.background='#325653';
+            })
+            btn.on('click',function(){
+                document.body.style.background='red';
+            })
+            //eliminar eventos
+
+            $('#desactivar').on('click',function(){
+                btn.off('click');
+                alert('Desactivado');
+                console.log('btn desactivado');
+            });
+            //prevenir un comportamiento por defecto (enlace)
+            $('a').on('click',function(e){
+                e.preventDefault();
+                alert('Enlace Bloquedo');
+
+            })
+
+        })
+     
+    </script>
+</body>
+</html>
