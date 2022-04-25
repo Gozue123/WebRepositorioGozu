@@ -9,20 +9,27 @@
 </head>
 <body>
     <button id="boton">Animar</button><br>
-    <div class="caja"></div>
+    <div class="caja" id="caja"></div>
     <script>
         $(function(){
-            $('#boton').on('click',function(){
+            $('#boton').on('click',function(){ 
+                
+                
                 // $('.selector').animate({parametro},velocidad,function(){});
                 $('.caja').animate({
                     // width:'+=100px',
                     // margin:'+=20px',
-                    marginLeft:'+=40px',
-                    opacity:'0.5'
+                    // marginLeft:'+=40px',
+                    // opacity:'0.5'
                 },2000,function(){
                     
-                })          
+                })    
+               $('#caja').addClass('animacion'); 
            })
+           
+           $('.caja').animate({
+               marginLeft:'+=200px'
+           });
         })
 
     </script>
@@ -39,5 +46,13 @@
         font-size: 40px;
         font-family: Arial, Helvetica, sans-serif;
         
+    }
+    @keyframes colores{
+        0%{background: #000}
+        50%{background: #789321}
+        100%{background: #000}
+    }
+    .animacion{
+        animation: colores 3s ease;
     }
 </style>
