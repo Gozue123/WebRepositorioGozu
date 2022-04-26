@@ -121,7 +121,8 @@ img.imgss{
    padding:10px;
 }
 .redes{
-   background: #000000;
+   /* background: #000000; */
+   background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");
    width: 100%;
    float: left;
    font-size: 1em;

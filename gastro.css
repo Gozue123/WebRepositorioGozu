@@ -20,13 +20,14 @@ img{
     border-radius: 10px;
 }
 .menuss{
+    background-image: url("imagenes/cd.jpg");
     position: absolute;
 }
 .menu_nav:hover{
     transform: scale(1.2);
     background: rgb(103, 173, 118);
 }
-.conten{
+.conten{   
     width: 100%;
     height: 500px;
     
