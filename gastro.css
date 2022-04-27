@@ -64,7 +64,7 @@ main h1{
 /* Header */
 header {
 	width: 100%;
-	background-image: url(file:///D:/Repositorio_Webll/WebRepositorioGozu/imagenes/cd.jpg);
+	background-image: url('file:///D:/Repositorio_Webll/WebRepositorioGozu/imagenes/cd.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center 0;
@@ -95,7 +95,7 @@ header .menu a:hover {
 }
 /* cajas*/
 .caja{
-    
+    background-image: url('https://static.eldeber.com.bo//Files/Sizes/2021/9/19/majao-batido-foto-jorge-ibez-comida-el-aljibe_418529903_380x260.jpg');
     padding-top: 2px;
     width: 250px;
     height: 250px;
@@ -184,7 +184,7 @@ img.imgss{
      padding-top: 7px;
  }
  main{
-     width: 65%;
+     width: 75%;
      float: right;
  }
  aside{
@@ -192,7 +192,7 @@ img.imgss{
      margin-left: 20px;
      padding-top: 30px;
     
-     width: 30%;
+     width: 20%;
      float: left;
  }
  .imgaside{
