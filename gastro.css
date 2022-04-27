@@ -64,7 +64,7 @@ main h1{
 /* Header */
 header {
 	width: 100%;
-	background: url(file:///D:/Repositorio_Webll/WebRepositorioGozu/imagenes/cd.jpg);
+	background-image: url(file:///D:/Repositorio_Webll/WebRepositorioGozu/imagenes/cd.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center 0;
