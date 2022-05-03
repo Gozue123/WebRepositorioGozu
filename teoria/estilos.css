@@ -1,0 +1,29 @@
+body{
+background: #929088;
+}
+.encabezado{
+   
+    text-align: center;
+    background: #a5a293;
+    color: #fff;
+}
+main{
+    color: #fff;
+    text-align: center;
+    background: #6b6a85;
+}
+aside{
+    color: #fff;
+    text-align: center;
+    background: #363131;
+}
+.widget{
+    color: #fff;
+    text-align: center;
+background: #779b997e;
+}
+footer{
+    text-align: center;
+background: #3d3d52;
+color: white;
+}

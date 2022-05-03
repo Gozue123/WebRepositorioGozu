@@ -34,7 +34,7 @@ $(document).ready(function(){
 		});
 		$(this).animate({
 			'top': '0px'
-		},2000 + (index * 1000));
+		},1000 + (index * 500));
 	});
 
 
@@ -55,28 +55,28 @@ $(document).ready(function(){
 // Scroll Elementos Menu
 	var acercaDe = $('#acerca-de').offset().top,
 		menu = $('#platillos').offset().top,
-		galeria = $('#galeria').offset().top,
-		redes = $('#redes').offset().top;
+		contactos = $('#contactos').offset().top,
+		recetas = $('#recetas').offset().top;
 
 // Boton Acerca de
 	$('#btn-contactos').on('click', function(e){
 		e.preventDefault();
 		$('html, body').animate({
-			scrollTop: redes -40
-		}, 500);
-	});
-
-	$('#btn-menu').on('click', function(e){
-		e.preventDefault();
-		$('html, body').animate({
-			scrollTop: menu - 40
+			scrollTop: contactos - 40
 		});
 	});
 
-	$('#btn-galeria').on('click', function(e){
+	$('#btn-platos').on('click', function(e){
 		e.preventDefault();
 		$('html, body').animate({
-			scrollTop: galeria - 40
+			scrollTop: recetas - 40
+		});
+	});
+
+	$('#btn-contactos').on('click', function(e){
+		e.preventDefault();
+		$('html, body').animate({
+			scrollTop: contactos - 40
 		});
 	});
 
