@@ -25,7 +25,7 @@ body{
     color: aliceblue;
     margin-left: 20px;
     
-  
+    
     margin-top: 30px;
 }
 .card:hover{
@@ -48,4 +48,33 @@ body{
 #footdx{
 margin-top: 50px;
 
+}
+.pagination{
+    margin:0 auto;
+    
+
+}
+.dxdx{
+    
+    display: flex;
+    justify-content: center;
+}
+aside{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.imgdx{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+}
+.imgdx:hover{
+transform: scale(1.1);
+
+}
+aside ul li a:hover{
+     font-size: 1.5rem;
+    
+  
 }
