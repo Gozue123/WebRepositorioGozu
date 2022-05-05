@@ -23,7 +23,7 @@ body{
 .card{
     background:rgb(26, 35, 58) ;
     color: aliceblue;
-    margin-left: 20px;
+    
     
     
     margin-top: 30px;
@@ -33,17 +33,17 @@ body{
 }
 
 .imgpubli{
-    width: 300px;
-    height: 400px;
+   
     margin-top: 30px;
-    margin-left: 20px;
+    
+    width: 100%;
     
 }
 .videopubli{
-    width: 300px;
-    height: 200px;
+   
     margin-top: 10px;
-    margin-left: 20px;
+    
+    width: 100%;
 }
 #footdx{
 margin-top: 50px;
@@ -65,8 +65,8 @@ aside{
     padding-top: 10px;
 }
 .imgdx{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 500px;
 }
 .imgdx:hover{
