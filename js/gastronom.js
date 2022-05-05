@@ -25,6 +25,29 @@ $(document).ready(function(){
 	});
 });
 ///
+
+$(document).ready(function(){
+    $("#butondx").click(function(){
+        $("#divdx").animate({
+            height: 'toggle'
+        });
+    });
+});
+$(document).ready(function(){
+    $("#butondxx").click(function(){
+        $("#divdxx").animate({
+            height: 'toggle'
+        });
+    });
+});
+$(document).ready(function(){
+    $("#butondxxx").click(function(){
+        $("#divdxxx").animate({
+            height: 'toggle'
+        });
+    });
+});
+
 $(document).ready(function(){
 
 	// Efecto Menu
@@ -89,3 +112,5 @@ $(document).ready(function(){
 
 
 });
+
+
