@@ -9,6 +9,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center 0;
+    
 }
 
 main h1{
@@ -172,4 +173,28 @@ header .menu a:hover {
 .tabla{
     text-align: center;
     margin:0 auto
+}
+#butondx{
+    background: rgb(189, 134, 134);
+}
+#butondx:hover{
+    background: rgb(126, 112, 112);
+    transform: scale(1.2);
+    color: white;
+}
+#butondxx{
+    background: rgb(189, 134, 134);
+}
+#butondxx:hover{
+    background: rgb(126, 112, 112);
+    transform: scale(1.2);
+    color: white;
+}
+#butondxxx{
+    background: rgb(189, 134, 134);
+}
+#butondxxx:hover{
+    background: rgb(126, 112, 112);
+    transform: scale(1.2);
+    color: white;
 }
