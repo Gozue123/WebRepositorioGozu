@@ -4,57 +4,22 @@
 	
 }
 
-body {
-	font-family: "Open Sans", Arial, Sans-serif;
-	font-size: 16px;
-    background: rgb(64, 73, 62);
-}
-/* *{
-    padding: 0;
-    margin: 0;
-}
-img{
+.re{
     width: 100%;
-    height: 500px;
-}
-.menu{
-    display: flex;
-    margin-top: 0px;
-    position: absolute; 
-} */
-
-/* .menu_nav,a{
-    padding-left: 10px;
-    text-decoration: none;
-    
-    list-style: none;
-    color: white;
-    border-radius: 10px;
-}
-
-.menu_nav:hover{
-    transform: scale(1.2);
-    background: rgb(103, 173, 118);
-} */
-
-/* header{
-    background-image: url(file:///D:/Repositorio_Webll/WebRepositorioGozu/imagenes/cd.jpg);
-	width: 100%;
-    padding-bottom: 850px;
-    background-size: cover;
+	background-image: url(../proyacto_jquery/imagenes/gaaa.jpg);
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: center ;
-
-} */
-/* header .menuss {
-	position: relative;
-	height: 700px;
-
+	background-position: center 0;
+    padding: 45px;
+    font-size: 4em;
 }
-header .menu {
+body {
 	width: 100%;
-	text-align:right;
-} */
+	background-image: url(https://i.pinimg.com/originals/35/97/6a/35976a472e0ae3152b39b080760909db.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0;
+}
 
 main h1{
     padding-top: 10px;
@@ -62,22 +27,34 @@ main h1{
     text-align: center;
 }
 /* Header */
-header {
-	width: 100%;
-	background-image: url('file:///D:/Repositorio_Webll/WebRepositorioGozu/imagenes/cd.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center 0;
+.b {
+    width: 700px;
+    height:300px;
+    padding: auto;
+    font-size: 2em;
+    margin: auto;
+    padding: 35px;
+    padding-bottom: 85px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    position: relative;
+    top:-200px;
+    left:-400px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+ 
 }
 
-header .contenedor {
+header{
 	position: relative;
-	height: 700px;
+	height: 350px;
 }
 
 header .menu {
 	width: 100%;
 	text-align:left;
+    background: rgba(0,0,0,0.5);
 }
 
 header .menu a {
@@ -85,55 +62,38 @@ header .menu a {
 	font-size: 20px;
 	font-weight: 300;
 	display: inline-block;
-	margin: 40px 20px;
+	margin: 20px 20px;
 	text-decoration: none;
 	position: relative;
+}
+header .menu a:hover{
+    transform:scale(1.2);
+    color: aqua;
 }
 
 header .menu a:hover {
 	text-decoration: underline;
 }
-/* cajas*/
-.caja{
-    background-image: url('https://static.eldeber.com.bo//Files/Sizes/2021/9/19/majao-batido-foto-jorge-ibez-comida-el-aljibe_418529903_380x260.jpg');
-    padding-top: 2px;
-    width: 250px;
-    height: 250px;
-    /* background: rgb(99, 17, 17); */
-  
-    margin: 10px;
-    color: rgb(255, 249, 255);
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    border-radius: 20px;
-    box-shadow: 10px 16px 48px #e1e7e2;
-}
-.cajas{
-    text-align: center;
-    border: 3px double rgb(245, 245, 245);
-    margin-top: 30px;
-    
-    margin-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    
-}
-.caja:hover{
-    transform: scale(1.10);
-}
 /* Footer */
-img.imgss:hover{
-    transform: scale(1.55);
-    
-  
+.face:hover{
+    transform: scale(2);
+    color: rgb(6, 21, 243);
 }
-img.imgss{
-   border-radius: 22px;
-   box-shadow: 8px 12px 33px #c51f1f;
-   
+.insta:hover{
+    transform: scale(2);
+    color: rgb(133, 0, 93);
+}
+.twi:hover{
+    transform: scale(2);
+    color: rgb(3, 78, 192);
+}
+.wasa:hover{
+    transform: scale(2);
+    color: rgb(12, 153, 7);
+}
+.youtu:hover{
+    transform: scale(2);
+    color: rgb(243, 6, 6);
 }
 .csm{
    text-align: center;
@@ -147,17 +107,14 @@ img.imgss{
    padding:10px;
 }
 .redes{
-   /* background: #000000; */
-   background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");
+    background: rgba(0,0,0,0.5); 
+   /*background-image:   url("https://static.vecteezy.com/system/resources/previews/002/832/705/non_2x/dark-blue-red-background-with-bubbles-abstract-illustration-with-colorful-spots-in-nature-style-pattern-for-wallpapers-curtains-vector.jpg");*/
    width: 100%;
    float: left;
    font-size: 1em;
    text-align: center;
    padding: 10px;
-   border-radius: 22px;
-   border-style: double ;
-   border-color: rgb(69, 69, 75);
-   
+  
 }
  ul {
    list-style: none;
@@ -191,15 +148,53 @@ img.imgss{
      margin-top: 30px;
      margin-left: 20px;
      padding-top: 30px;
-    
+   
      width: 20%;
      float: left;
  }
  .imgaside{
      
-width: 100%;
+ width: 100%;
  }
  .tabla h2{
      color: white;
  
  }
+ .tabla p{
+    padding-top: 7px;
+}
+.icon {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .nav-menu_visible {
+        left: 0;
+      }
+      .icon {
+        display: block;
+      }
+        .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;/*hacemos desaparecer el menu*/
+    transition: left 0.3s;
+  }
+  }
