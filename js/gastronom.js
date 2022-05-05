@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-	// Efecto Menu
+// Efecto Menu
 	$('.menu a').each(function(index, elemento){
 		$(this).css({
 			'top': '-200px'
@@ -74,41 +74,6 @@ $(document).ready(function(){
 			marginTop: '-55px'
 		},40000);
 	}
-
-// Scroll Elementos Menu
-	var acercaDe = $('#acerca-de').offset().top,
-		menu = $('#platillos').offset().top,
-		contactos = $('#contactos').offset().top,
-		recetas = $('#recetas').offset().top;
-
-// Boton Acerca de
-	$('#btn-contactos').on('click', function(e){
-		e.preventDefault();
-		$('html, body').animate({
-			scrollTop: contactos - 40
-		});
-	});
-
-	$('#btn-platos').on('click', function(e){
-		e.preventDefault();
-		$('html, body').animate({
-			scrollTop: recetas - 40
-		});
-	});
-
-	$('#btn-contactos').on('click', function(e){
-		e.preventDefault();
-		$('html, body').animate({
-			scrollTop: contactos - 40
-		});
-	});
-
-	$('#btn-ubicacion').on('click', function(e){
-		e.preventDefault();
-		$('html, body').animate({
-			scrollTop: ubicacion - 40
-		});
-	});
 
 
 });
