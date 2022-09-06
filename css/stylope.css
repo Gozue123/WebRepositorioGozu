@@ -24,6 +24,7 @@ body{
 .card{
     background:rgb(26, 35, 58) ;
     color: aliceblue;
+    margin: auto;
     
     
     
@@ -65,7 +66,9 @@ aside{
     width: 150px;
     height: 150px;
     border-radius: 500px;
+
 }
+
 .imgdx:hover{
 transform: scale(1.1);
 
@@ -83,4 +86,14 @@ border-radius: 5px;
 .titulopag{
     color: aliceblue;
     text-align: center;
+}
+#TODOXD{
+    margin: auto;
+    justify-content: center;
+
+}
+#cambiarxd{
+    
+   
+    justify-content: center;
 }
