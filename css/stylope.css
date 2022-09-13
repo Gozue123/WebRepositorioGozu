@@ -3,9 +3,9 @@ body{
     background: rgb(0, 1, 37);
 }
 #carouselExampleCaptions{
-    margin-top: 30px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-top: 10px;
+    /* margin-left: 45px;
+    margin-right: 45px; */
   }
 #butonbuscar{
 
@@ -14,7 +14,7 @@ body{
     border-color: rgb(205, 205, 218);
 }
 #butonbuscar:hover{
-    background: rgb(106, 110, 201);
+    background: rgb(27, 35, 139);
 
     color: rgb(211, 207, 201) !important;
     transform: scale();
@@ -32,6 +32,7 @@ body{
 }
 .card:hover{
     transform: scale(1.1);
+    box-shadow: 8px 12px 33px #4e55bd;
 }
 
 .imgpubli{
@@ -68,6 +69,12 @@ aside{
     border-radius: 500px;
 
 }
+.linea {
+    height: 6px;
+background: rgb(3, 3, 3);
+
+ 
+}
 
 .imgdx:hover{
 transform: scale(1.1);
@@ -78,8 +85,18 @@ aside ul li a:hover{
     
   
 }
+#menuu{
+    background: rgb(0, 1, 37);
+
+    
+}
+/* header{
+    position: fixed;
+    z-index: 1000;
+ top: 0;
+} */
 .logodx{
-width: 130px;
+width: 190px;
 height: 70px;
 border-radius: 5px;
 }
@@ -97,3 +114,46 @@ border-radius: 5px;
    
     justify-content: center;
 }
+
+#navaa {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #ffffff 50%,
+      rgb(146, 135, 135) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+   
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #navaa:before{
+    content: '';
+    background:       #ffffff    ;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  #navaa:hover {
+   background-position: 0;
+  }
+  
+  #navaa:hover::before{
+    width: 100%;
+   
+  }
+  #navul{
+    padding-left: 25px;
+  }
